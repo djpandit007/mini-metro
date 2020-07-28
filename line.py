@@ -15,6 +15,6 @@ class Line(object):
         except KeyError:
             print("Color '" + color + "' not found in ColorEnum")
 
-    def getColor(self):
+    def get_color(self):
         return self.color
 

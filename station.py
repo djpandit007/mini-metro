@@ -15,5 +15,5 @@ class Station(object):
         except KeyError:
             print("Shape '" + shape + "' not found in ShapeEnum")
 
-    def getShape(self):
+    def get_shape(self):
         return self.shape
